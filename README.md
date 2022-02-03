@@ -1,9 +1,9 @@
 # tfnotify
 
-[![Build Status](https://github.com/suzuki-shunsuke/tfnotify/workflows/test/badge.svg)](https://github.com/suzuki-shunsuke/tfnotify/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/suzuki-shunsuke/tfnotify)](https://goreportcard.com/report/github.com/suzuki-shunsuke/tfnotify)
-[![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/tfnotify.svg)](https://github.com/suzuki-shunsuke/tfnotify)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/suzuki-shunsuke/tfnotify/master/LICENSE)
+[![Build Status](https://github.com/kitos9112/tfnotify/workflows/test/badge.svg)](https://github.com/kitos9112/tfnotify/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kitos9112/tfnotify)](https://goreportcard.com/report/github.com/kitos9112/tfnotify)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kitos9112/tfnotify.svg)](https://github.com/kitos9112/tfnotify)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kitos9112/tfnotify/master/LICENSE)
 
 Fork of [mercari/tfnotify](https://github.com/mercari/tfnotify)
 
@@ -11,7 +11,7 @@ tfnotify parses Terraform commands' execution result and applies it to an arbitr
 
 ## Why do we fork mercari/tfnotify?
 
-We have sent [some pull requests](https://github.com/mercari/tfnotify/pulls/suzuki-shunsuke) to mercari/tfnotify but they aren't merged yet.
+We have sent [some pull requests](https://github.com/mercari/tfnotify/pulls/kitos9112) to mercari/tfnotify but they aren't merged yet.
 
 We forked mercari/tfnotify v0.7.0 [fb178d8](https://github.com/mercari/tfnotify/tree/fb178d8a5a51f88a51b7fda93ed5443ff56dfc8f).
 
@@ -23,9 +23,9 @@ Please see [Compared with mercari/tfnotify](COMPARED_WITH_TFNOTIFY.md).
 
 ## Compared with tfcmt
 
-In addition to suzuki-shunsuke/tfnotify, we develop [tfcmt](https://github.com/suzuki-shunsuke/tfcmt) too.
+In addition to kitos9112/tfnotify, we develop [tfcmt](https://github.com/kitos9112/tfcmt) too.
 tfcmt isn't compatible with tfnotify and doesn't support some platform, but provides some attractive features aggresively.
-Please see the [document](https://github.com/suzuki-shunsuke/tfcmt/blob/master/COMPARED_WITH_TFNOTIFY.md) too.
+Please see the [document](https://github.com/kitos9112/tfcmt/blob/master/COMPARED_WITH_TFNOTIFY.md) too.
 
 ## Motivation
 
@@ -99,7 +99,7 @@ notifier:
   github:
     token: $GITHUB_TOKEN
     repository:
-      owner: "suzuki-shunsuke"
+      owner: "kitos9112"
       name: "tfnotify"
 terraform:
   fmt:
@@ -239,7 +239,7 @@ notifier:
     token: $GITHUB_TOKEN
     base_url: $GITHUB_BASE_URL # Example: https://github.example.com/api/v3
     repository:
-      owner: "suzuki-shunsuke"
+      owner: "kitos9112"
       name: "tfnotify"
 terraform:
   fmt:
@@ -290,7 +290,7 @@ notifier:
     token: $GITLAB_TOKEN
     base_url: $GITLAB_BASE_URL
     repository:
-      owner: "suzuki-shunsuke"
+      owner: "kitos9112"
       name: "tfnotify"
 terraform:
   fmt:
